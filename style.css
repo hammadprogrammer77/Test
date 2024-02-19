@@ -1,0 +1,380 @@
+body {
+  height: 500vh;
+  width: auto;
+}
+
+.main {
+  position: absolute;
+  margin-top: -20px;
+  height: 100px;
+  width: 99%;
+  background-image: url(image/1.webp);
+  background-size: cover;
+}
+
+.main > img {
+  position: absolute;
+  font-size: 30px;
+  margin-top: -85px;
+  margin-left: 60px;
+}
+
+.main1 {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.navbar {
+  position: relative;
+  height: 50px;
+  margin-top: -75px;
+  margin-left: 400px;
+}
+
+.navbar > ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar > li {
+  text-decoration: none;
+}
+
+li > a {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  font-size: medium;
+  height: 30px;
+  margin-top: -3px;
+}
+
+option {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  font-size: 20px;
+}
+
+.option1 {
+  margin-left: -20px;
+}
+
+.button1 {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  margin-left: 500px;
+  margin-top: -50px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.button2 {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  margin-left: 680px;
+  margin-top: -50px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: red;
+  color: white;
+}
+
+.main2 {
+  height: 400px;
+  width: auto;
+}
+
+.main2 > img {
+  margin-top: 80px;
+  height: 600px;
+  width: 100%;
+}
+
+.main3 {
+  height: 700px;
+  width: auto;
+  background-color: #000000;
+  margin-top: 280px;
+}
+
+.para1 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 400px;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+.para1 > span {
+  font-weight: bolder;
+}
+
+.para2 {
+  position: absolute;
+  color: white;
+  margin-top: 240px;
+  margin-left: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.image1 {
+  position: absolute;
+  margin-top: 350px;
+}
+
+.image1 > img {
+  height: 180px;
+  width: 280px;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+
+.image1 > button {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-top: 200px;
+  color: white;
+  margin-left: -220px;
+}
+
+.image2 {
+  position: absolute;
+  margin-top: 350px;
+}
+
+.image2 > img {
+  height: 180px;
+  width: 280px;
+  border-radius: 10px;
+  margin-left: 500px;
+}
+
+.image2 > button {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-top: 200px;
+  color: white;
+  margin-left: -220px;
+}
+
+.image3 {
+  position: absolute;
+  margin-top: 350px;
+}
+
+.image3 > img {
+  height: 180px;
+  width: 280px;
+  border-radius: 10px;
+  margin-left: 800px;
+}
+
+.image3 > button {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-top: 200px;
+  color: white;
+  margin-left: -220px;
+}
+
+.main4 {
+  height: 300vh;
+  width: auto;
+  background-color: #0f0f0f;
+}
+
+.main4heading {
+  color: white;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin-left: 470px;
+}
+
+.main4heading1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 350px;
+  font-size: 40px;
+  word-spacing: 20px;
+  letter-spacing: 12px;
+}
+
+.main4para {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 220px;
+  margin-left: 340px;
+  font-size: medium;
+}
+
+.main4para1 {
+  color: red;
+  position: absolute;
+  margin-top: 45vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  letter-spacing: 12px;
+}
+
+.main4heading2 {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50vh;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.main4heading2 > span {
+  font-size: 25px;
+}
+
+.main4heading3 {
+  color: gray;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 60vh;
+  line-height: 20px;
+  margin-left: 100px;
+}
+
+.button3 {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  margin-top: 75vh;
+  margin-left: 100px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.image4 {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 280px;
+  border-radius: 10px;
+}
+
+.main5 {
+  position: absolute;
+  margin-top: -200vh;
+}
+
+.image5 {
+  height: 100px;
+  width: 450px;
+  border-radius: 10px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.main4heading4 {
+  color: white;
+  width: 500px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin-left: 670px;
+  margin-top: -200px;
+}
+
+.main4heading5 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 600px;
+  font-size: 30px;
+  width: 700px;
+  word-spacing: 20px;
+  letter-spacing: 12px;
+}
+
+.main4para2 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: -70px;
+  margin-left: 640px;
+  font-size: medium;
+  width: 500px;
+}
+
+.main4para4 {
+  color: red;
+  position: absolute;
+  margin-top: -1vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 650px;
+  letter-spacing: 12px;
+}
+
+.main4heading6 {
+  position: absolute;
+  color: white;
+  width: 500px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 650px;
+}
+
+.main4heading6 > span {
+  font-size: 25px;
+}
+
+.main4heading7 {
+  color: gray;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  line-height: 20px;
+  margin-left: 650px;
+  width: 500px;
+}
+
+.button4 {
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  margin-top: 400px;
+  margin-left: 100px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
